@@ -8,9 +8,9 @@
 
 ·         So it took ~3h to load
 
-·         We split the csv file into 12 files. Each file having around 60M rows/entries
+·         Split the csv file into 12 files. Each file having around 60M rows/entries
 
-·         We split the process into 4 threads, each thread having 3 of that 12 files as its workload
+·         Split the process into 4 threads, each thread having 3 of that 12 files as its workload
 
 ·         After compacting, the RockDB occupies 58 GB on disk
 
