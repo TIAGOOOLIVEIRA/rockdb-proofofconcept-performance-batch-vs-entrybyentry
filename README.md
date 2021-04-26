@@ -1,6 +1,6 @@
 ## Repo Content
 * [Performance test for loading ~700M KV´s records into a RockDB](#Repo-Scope)
-* [With RockDB approaches to load data](#approaches)
+* [RockDB approaches to load data](#approaches)
 * [Next steps](#whatnext)
 * [Technology & Setup](#techsetup)
 
@@ -14,7 +14,7 @@
 
 ·         After compacting, the RockDB occupies 58 GB on disk
 
-## With RockDB approaches to load data
+## RockDB approaches to load data
 
 ·         Writing in Batch mode: very fast for ingesting but tricky to fine tune the memory usage - bad parameters potentially cause OOM crashes
 
@@ -24,7 +24,7 @@
 
 ## Next steps
 
-·         stressing the retrieving operations given
+·         stressing the retrieving operations in parallel to the writing ones
 
 ·         fine tunning the mem/caching parameters, parallelism limitations
 
